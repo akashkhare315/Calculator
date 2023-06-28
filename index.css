@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Comic Sans MS';
+}
+
+
+.container{
+border: 2px solid black;
+width: 400px;
+margin: 50px auto;
+padding: 15px;
+}
+
+h1{
+    text-align: center ;
+}
+
+
+#screen{
+    display: block;
+    margin: 20px auto;
+    padding: 5px;
+    border: 2px solid black;
+    font-size: 1.3rem;
+}
+
+td{
+    height:50px;
+    width: 75px;
+    border: 2px solid black;
+    transition: 100ms;
+
+}
+
+td.active{
+    transform: scale(0.8);
+}
+
+button{
+    height: 100%;
+    width: 100%;
+     cursor: pointer;
+}
+
+table{
+    margin: 0 auto;
+
+}
